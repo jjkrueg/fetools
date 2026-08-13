@@ -22,7 +22,7 @@ you fork it):
 
 ```stata
 net install fedesc, ///
-    from("https://raw.githubusercontent.com/jjkrueger/fedesc/main/") replace
+    from("https://raw.githubusercontent.com/jjkrueg/fedesc/main/Installation") replace
 ```
 
 Then read the help:
