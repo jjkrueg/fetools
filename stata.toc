@@ -1,0 +1,4 @@
+v 3
+d fedesc -- Fixed-effect sample descriptives
+d Jan Jakob Krueger (info@jjkrueger.de)
+p fedesc  Fixed-effect sample descriptives
