@@ -46,7 +46,7 @@ fedesc [varlist] [if] [in] , feffects(string) ///
 
 | Option | Purpose |
 | --- | --- |
-| `feffects()` | **Required.** Up to 5 fixed-effect specifications separated by ```|```. Terms may be plain (firmid), interaction-only (firmid#year), or main+interaction (firmid##year). Max 5 terms per specification. |
+| `feffects()` | **Required.** Up to 5 fixed-effect specifications separated by a straight separator as above. Terms may be plain (firmid), interaction-only (firmid#year), or main+interaction (firmid##year). Max 5 terms per specification. |
 | `report()` | `totals` (default), `shares` (% of baseline), or `both`. |
 | `stats()` | Up to 3 `(statistic) variable` pairs. Statistic: `mean`, `median`, `sd`, `var`, `min`, `max`, `sum`, `count`, or any percentile `p#`. |
 | `distinct()` | Up to 3 variables; reports distinct (non-missing) counts and the share retained vs. baseline. |
