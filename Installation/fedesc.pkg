@@ -1,0 +1,19 @@
+v 3
+d fedesc: Fixed-effect sample descriptives
+d
+d Reports how high-dimensional fixed effects change the estimation sample.
+d For a no-fixed-effect baseline and up to five fixed-effect specifications,
+d fedesc shows observation counts, shares of the baseline, descriptive
+d statistics, and distinct-entity counts (with retained shares), optionally
+d within categories of a by() variable. The singleton-dropping sample matches
+d that of reghdfe.
+d
+d Requires: Stata version 14.0 or later
+d
+d Author: Jan Jakob Krueger
+d Support: email info@jjkrueger.de
+d
+d Distribution-Date: 20260812
+d
+f fedesc.ado
+f fedesc.sthlp
